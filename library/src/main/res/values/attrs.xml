@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Declare custom theme attributes that allow changing which styles are
+         used for button bars depending on the API level.
+         ?android:attr/buttonBarStyle is new as of API 11 so this is
+         necessary to support previous API levels. -->
+
+    <declare-styleable name="TangramEditText">
+        <attr name="keyboard_type">
+            <enum name="NONE" value="-1" />
+            <enum name="NUMBER" value="0" />
+            <enum name="NUMBER_DECIMAL" value="1" />
+            <enum name="PHONE" value="2" />
+            <enum name="Email" value="3" />
+            <enum name="TEXT" value="4" />
+            <enum name="VIN_CODE" value="10" />
+        </attr>
+    </declare-styleable>
+</resources>
