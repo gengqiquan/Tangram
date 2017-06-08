@@ -15,17 +15,6 @@ object KeyboardFactory {
                 .build()
     }
 
-//    fun getXML(type:KeyboardType): Int {
-//        when (type) {KeyboardType.NONE -> return R.xml.keyboard_number
-//           KeyboardType.NUMBER -> return R.xml.keyboard_number
-//           KeyboardType.NUMBER_DECIMAL -> return R.xml.keyboard_number
-//           KeyboardType.PHONE -> return R.xml.keyboard_number
-//           KeyboardType.TEXT -> return R.xml.vin_keyboard
-//           KeyboardType.PASSWORD -> return R.xml.keyboard_number
-//           KeyboardType.VIN_CODE -> return R.xml.keyboard_number
-//        }
-//    }
-
     class Builder(private val mContext: Context) {
         private var mXmlID: Int = 0
         private var mType: KeyboardType = KeyboardType.NONE
@@ -97,7 +86,6 @@ object KeyboardFactory {
     class KeyboardContent constructor(var keyboard: Keyboard, var contentHeight: Int)
 
     /**
-     * 获得屏幕宽度
 
      * @param context
      * *

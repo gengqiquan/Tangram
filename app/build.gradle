@@ -16,6 +16,9 @@ android {
         main.java.srcDirs += 'src/main/kotlin'
 
     }
+    lintOptions{
+        abortOnError false
+    }
     buildTypes {
         release {
             minifyEnabled false
