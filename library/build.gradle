@@ -20,17 +20,15 @@ android {
 }
 
 publish {
-    userOrg = 'geng-qiquan'//bintray.com用户名
+    userOrg = 'gengqiquan'//bintray.com用户名
     groupId = 'com.gengqiquan'//jcenter上的路径
     artifactId = 'tangram'//项目名称
     publishVersion = '0.0.1'//版本号
     desc = ''//描述，不重要
-    website = 'https://github.com/gengqiquan/Tangram'//网站，不重要；尽量模拟github上的地址，例如我这样的；当然你有地址最好了
+    website = 'https://github.com/gengqiquan/Tangram'
 }
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-//    compile('com.group:lib-module:1.0') {
-//        exclude group: 'com.exclusion.group', module: 'module.name'}
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.daimajia.androidanimations:library:2.2@aar'
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
