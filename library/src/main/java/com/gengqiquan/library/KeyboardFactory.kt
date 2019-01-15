@@ -68,7 +68,10 @@ object KeyboardFactory {
                     mXmlID = XML_EMAIL
                     mHeight = (getScreenWidth(mContext).toFloat() * 60 / 100).toInt()
                 }
-                KeyboardType.VIN_CODE -> mXmlID = XML_VIN_CODE
+                KeyboardType.VIN_CODE -> {
+                    mXmlID = XML_VIN_CODE
+                    mHeight = mContext.dip(192)
+                }
             }
             if (mModeId < 0) {
                 mModeId = 0
