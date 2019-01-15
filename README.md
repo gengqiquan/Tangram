@@ -1,6 +1,7 @@
 # Tangram
-# Custom software disk, automatically pop-up hidden
-
+# Custom soft keyboard, automatically pop-up hidden
+## example 
+![Email](https://github.com/gengqiquan/Tangram/blob/master/images/device-2017-06-09-101954.png)![NUMBER_DECIMAL](https://github.com/gengqiquan/Tangram/blob/master/images/number_decmail.png )![NUMBER](https://github.com/gengqiquan/Tangram/blob/master/images/phone.png )![VIN_CODE](https://github.com/gengqiquan/Tangram/blob/master/images/vin_code.png)
 ### already provided type
     NUMBER,
     NUMBER_DECIMAL,
